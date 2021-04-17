@@ -15,8 +15,13 @@ generateBtn.addEventListener("click", writePassword);
 function promptMe(){
   var passwordLength = prompt('How many characters would you like your password to contain?');
   alert (passwordLength);
-  if (confirm("Click OK to confirm including numeric characters?")) {
-    txt = "Click OK to confirm including numeric characters?";
+  if (confirm("Click OK to confirm including special characters?")) {
+      if (confirm( "Click OK to confirm including numeric characters.")) {
+          if (confirm("Click OK to confirm lowercase letters.")) {
+              if (confirm("Click OK to confirm uppercase letters.")) {
+              }
+          }
+      }
   } else {
     txt = "User cancelled the prompt.";
   }
