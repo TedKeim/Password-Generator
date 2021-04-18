@@ -22,3 +22,10 @@ THEN the password is either displayed in an alert or written to the page
 
 To create this random password generator, first I stated all of my variables that would be used. Then I created a function that states all of the criteria levels for the password (uppercase, lowercase, numbers and symbols). The different criterias are displayed to the user by using window.prompts and confirms. Next I stated all of the info to be used in a password (letters, numbers and symbols).After, I inserted a for-loop that runs through all of the info to randomize it. Finally, I added a window.alert that brings up the randomized password and shows it to the user.
 
+
+![image](https://user-images.githubusercontent.com/76973037/115131490-8e058700-9fc6-11eb-8e98-20c4383920a4.png)
+
+
+![image](https://user-images.githubusercontent.com/76973037/115131514-b2f9fa00-9fc6-11eb-8dd3-291614cf5772.png)
+
+Here is the link to the deployed site: https://tedkeim.github.io/PasswordGenerator/
